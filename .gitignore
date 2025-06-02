@@ -1,0 +1,31 @@
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+env/
+ENV/
+.venv/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Log / database
+*.log
+*.db
+*.sqlite3
+
+# results folder (keep folder, ignore contents)
+results/*
+!results/.gitkeep
+
